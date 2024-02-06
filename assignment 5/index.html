@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <center>
+        <div class="main">
+            <form>
+                <h2><i>Step 1: Your details</i></h2>
+                <div class="one"><br><label><b>Name</b></label>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp;
+                    <input type="text" name="name" placeholder="First and last name">
+                </div><br>
+                <div class="two"> <br><label> <b>Email</b></label> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp;
+                    &nbsp;<input type="text" id="email" placeholder="example@domain.com"></div><br>
+                <div class="three"> <br><label><b>Phone</b></label>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp; &nbsp;
+                    <input type="number" name="number" placeholder="Eg. +447500000000">
+                </div>
+                <h2><i>Step 2: Delivery address</i></h2>
+                <div class="fore"><br><label><b>Address</b></label>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <textarea
+                        name="address" id="" cols="30" rows="5"></textarea>
+                </div><br>
+                <div class="five"><br><label><b>Post code</b></label> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp;<input type="code" name="code"></div><br>
+                <div class="six"><br><label><b>Country</b></label>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp;
+                    &nbsp;<input type="text" name="Country"></div>
+                <h2><i>Step 3: Card details</i></h2>
+                <div class="seven"><br><label><b>Card type</b></label>&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;
+                    &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    <input type="radio" name="card" value="VISA" checked> <img src="./images/visa.png" alt="" width="30"
+                        height="10"><b>VISA</b>
+                    <input type="radio" name="card" value="AmEx"><img src="./images/amex.png" alt="" width="15"
+                        height="10"><b>AmEx</b>
+                    <input type="radio" name="card" value="Mastercard"><img src="./images/master card.png" alt=""
+                        width="15" height="12"><b>Mastercard</b>
+                </div><br>
+                <div class="eight"><br><label> <b>Card number</b></label>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    <input type="number" name="number">
+                </div><br>
+                <div class="nine"><br><label><b>Security code</b></label>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    <input type="number" name="number">
+                </div><br>
+                <div class="ten"><br><label><b>Name on card</b></label>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    <input type="text" name="name" placeholder="Exact name as on the card">
+                </div><br>
+                <button><b><i>BUY IT!</i></b></button>
+            </form>
+        </div>
+    </center>
+
+</body>
+
+</html>

@@ -1,0 +1,91 @@
+div.main {
+    background-color: rgb(111, 226, 17);
+    width: 600px;
+    height: 1130px;
+    align-self: center;
+    border-style: dashed;
+}
+
+div.one {
+    background-color: rgb(105, 236, 88);
+    width: 400px;
+    height: 60px;
+    border-style: solid;
+    border-color: whitesmoke;
+}
+
+div.two {
+    background-color: rgb(105, 236, 88);
+    width: 400px;
+    height: 60px;
+    border-style: solid;
+    border-color: whitesmoke;
+}
+
+div.three {
+    background-color: rgb(105, 236, 88);
+    width: 400px;
+    height: 60px;
+    border-style: solid;
+    border-color: whitesmoke;
+}
+
+div.fore {
+    background-color: rgb(105, 236, 88);
+    width: 400px;
+    height: 120px;
+    border-style: solid;
+    border-color: whitesmoke;
+}
+
+div.five {
+    background-color: rgb(105, 236, 88);
+    width: 400px;
+    height: 60px;
+    border-style: solid;
+    border-color: whitesmoke;
+}
+
+div.six {
+    background-color: rgb(105, 236, 88);
+    width: 400px;
+    height: 60px;
+    border-style: solid;
+    border-color: whitesmoke;
+}
+
+div.seven {
+    background-color: rgb(105, 236, 88);
+    width: 400px;
+    height: 70px;
+    border-style: solid;
+    border-color: whitesmoke;
+}
+
+div.eight {
+    background-color: rgb(105, 236, 88);
+    width: 400px;
+    height: 60px;
+    border-style: solid;
+    border-color: whitesmoke;
+}
+
+div.nine {
+    background-color: rgb(105, 236, 88);
+    width: 400px;
+    height: 60px;
+    border-style: solid;
+    border-color: whitesmoke;
+}
+
+div.ten {
+    background-color: rgb(105, 236, 88);
+    width: 400px;
+    height: 60px;
+    border-style: solid;
+    border-color: whitesmoke;
+}
+
+button{
+    background-color: yellow;
+}
